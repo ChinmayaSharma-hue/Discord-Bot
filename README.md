@@ -1,5 +1,6 @@
 # Discord Dictionary Bot, "Case" 
 A discord bot that can respond with various different descriptions of the word, based on the command.
+
 (Task ID : Discord Dictionary Bot)
 
 ## Features
