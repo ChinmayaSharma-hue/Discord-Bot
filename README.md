@@ -34,4 +34,20 @@ A discord bot that can respond with various different descriptions of the word, 
  ```
  
  ## Demo
+```
+$help <word>
+```
+<img src="https://github.com/ChinmayaSharma-hue/Discord_Dictionary_Bot/blob/main/images/Screenshot%202021-11-29%20010922.jpg">
+
+
+```
+$all <word>
+```
+<img src="https://github.com/ChinmayaSharma-hue/Discord_Dictionary_Bot/blob/main/images/Screenshot%202021-11-29%20011753.jpg">
+
+
+```
+$query <word>
+```
+<img src="https://github.com/ChinmayaSharma-hue/Discord_Dictionary_Bot/blob/main/images/Screenshot%202021-11-29%20011907.jpg">
  
