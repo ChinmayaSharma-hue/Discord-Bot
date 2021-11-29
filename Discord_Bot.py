@@ -11,7 +11,7 @@ client = commands.Bot(command_prefix="$")
 # removing the default help command in order to define a custom one.
 client.remove_command("help")
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 # Defining a Word class in order to encapsulate all the commands that are called for the word.
@@ -255,14 +255,14 @@ async def query(ctx, *args):
     response = openai.Completion.create(
         engine="davinci",
         prompt=f"Human: {arg} \nAI:",
-        temperature=0.9,
+        temperature=0.7,
         max_tokens=150,
         top_p=1,
-        frequency_penalty=0.5,
+        frequency_penalty=0.6,
         presence_penalty=0,
         stop=["\n", " Human:", " AI:"],
     )
     await ctx.send(response["choices"][0]["text"])
 
 
-client.run("OTEzMDU2MzQ3NTI2OTQyNzgw.YZ47_Q.6nQwBB3nQBE-XOmrC-OzRj0OR6c")
+client.run("OTEzMDU2MzQ3NTI2OTQyNzgw.YZ47_Q.fs1zU1XFkQPbzuq_9SR7RFl3SR0")
