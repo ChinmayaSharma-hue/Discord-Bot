@@ -3,6 +3,14 @@ A discord bot that can respond with various different descriptions of the word, 
 
 (Task ID : Discord Dictionary Bot)
 
+## Setup Instructions
+* Create a bot in this [link](https://discord.com/developers/applications) and copy the token
+that is generated for the bot, and paste it in the code where the bot token is to be inserted.
+* In order to make the ```$query``` command available, create an account in [openAI](https://openai.com/)
+and get the API key and paste it in the code where the openAI key is to be inserted.
+* Add the bot to the server of choice.
+* Type ```$help``` for further instructions.
+
 ## Features
 * Get the meaning of a word
 * Get the part of speech the word belongs to
@@ -53,3 +61,4 @@ $query <word>
 ```
 <img src="https://github.com/ChinmayaSharma-hue/Discord_Dictionary_Bot/blob/main/images/Screenshot%202021-11-29%20011907.jpg">
  
+The demo video of the bot working can be found in this [link](https://drive.google.com/file/d/1DNxH3q1ubHRMXdc3Bn-DhN3-SgWegr0a/view?usp=sharing).

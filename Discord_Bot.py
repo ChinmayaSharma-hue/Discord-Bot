@@ -11,7 +11,7 @@ client = commands.Bot(command_prefix="$")
 # removing the default help command in order to define a custom one.
 client.remove_command("help")
 
-openai.api_key = "open_ai_key_goes_here"
+openai.api_key = "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"
 
 
 # Defining a Word class in order to encapsulate all the commands that are called for the word.
@@ -265,4 +265,4 @@ async def query(ctx, *args):
     await ctx.send(response["choices"][0]["text"])
 
 
-client.run("bot_code_goes_here")
+client.run("OTEzMDU2MzQ3NTI2OTQyNzgw.YZ47_Q.fs1zU1XFkQPbzuq_9SR7RFl3SR0")
